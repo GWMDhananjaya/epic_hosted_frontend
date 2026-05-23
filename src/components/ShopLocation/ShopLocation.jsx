@@ -31,7 +31,7 @@ export default function ShopLocationSection() {
             {/* Get Directions Button */}
             <div className="mt-6">
               <a
-                href="https://maps.app.goo.gl/pQQgo3dUNvpNJguf9"
+                href="https://maps.app.goo.gl/vFmev1hEuVd79Tno9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white text-sm md:text-base font-semibold py-2 px-4 rounded-xl shadow-md transition"
