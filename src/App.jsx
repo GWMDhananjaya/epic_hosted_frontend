@@ -9,7 +9,7 @@ import AboutGradient from "./components/aboutMeSection/AboutGradient";
 import ProjectsMain from "./components/projectImages/ProjectsMain";
 import ProjectGradient from "./components/projectImages/ProjectGradient";
 import ShopLocation from "./components/ShopLocation/ShopLocation";
-import ShopMain from "./components/shopSection/ShopMain";
+// import ShopMain from "./components/shopSection/ShopMain";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <AboutGradient />
       <ProjectsMain />
       <ProjectGradient />
-      <ShopMain />
+      {/* <ShopMain /> */}
       <ShopLocation />
       <ContactMeMain />
       <FooterMain />
