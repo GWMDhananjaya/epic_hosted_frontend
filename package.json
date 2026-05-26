@@ -2,7 +2,7 @@
   "name": "epic",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://GWMDhananjaya.github.io/epic_hosted_frontend",
+  "homepage": "https://epicauto.lk", 
   "type": "module",
   "scripts": {
     "dev": "vite --host",

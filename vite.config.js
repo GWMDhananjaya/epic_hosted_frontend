@@ -6,7 +6,7 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(), react(), flowbiteReact()],
-  base: "/epic_hosted_frontend/", // Add this line for GitHub Pages
+  base: "/",
   build: {
     outDir: "dist",
     sourcemap: false,
