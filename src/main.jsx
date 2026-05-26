@@ -7,8 +7,9 @@ import { store } from "./components/state/store.js";
 import "flowbite";
 import "./index.css";
 
-// IMPORTANT: This sets the base URL for GitHub Pages
-const basename = import.meta.env.PROD ? "/epic_hosted_frontend/" : "/";
+// Check if we're on GitHub Pages or custom domain
+const isGitHubPages = window.location.hostname.includes("github.io");
+const basename = isGitHubPages ? "/epic_hosted_frontend/" : "/";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
